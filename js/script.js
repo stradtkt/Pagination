@@ -88,7 +88,7 @@ function appendButtons(pageList) {
       event.preventDefault();
    });
 }
-
+ 
 //calling the function appendBtns which provides the correct amount of buttons for the amount of items that are in the studentList
 appendButtons(studentList);
 //calling the showPages function starting at the zero index and then displays the next 10 results from the studentList
